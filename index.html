@@ -1,0 +1,478 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Page| hanzo</title>
+    
+    <link rel="stylesheet" href="index.css"  />
+ 
+  </head>
+
+
+
+  <body>
+    
+    <div id="Header">
+        <div class="container">
+          <!-- Navigation Menu -->
+          <nav class="main-nav">
+            <!-- Loader Logo -->
+            <div class="loader">
+              <div class="loader-square"></div>
+              <div class="loader-square"></div>
+              <div class="loader-square"></div>
+              <div class="loader-square"></div>
+              <div class="loader-square"></div>
+              <div class="loader-square"></div>
+              <div class="loader-square"></div>
+            </div>
+      
+            <!-- Menu Items -->
+            <ul class="nav-menu">
+              <li><a href="#Header" class="nav-link">Home</a></li>
+              <li><a href="#about" class="nav-link">About Me</a></li>
+              <li><a href="#contact" class="nav-link">Contact Me</a></li>
+              <li><a href="#social-media" class="nav-link">Social Media</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      
+      
+      
+        <div id="Header">
+          <div class="container">
+            <!-- Loader and other content go here -->
+      
+
+
+        </nav>
+
+        <div class="header-text">
+          <h1>Hi, I am <span>Roman</span><br>aka Hanzo <strong>Web Developer</strong></h1>
+        </div>
+        
+     <div id="about">
+       
+        <div class="container">
+            <div class="row">
+              <!-- Image Column -->
+              <div class="about-col-1">
+              </div>
+          
+              <!-- Text Column -->
+              <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                  Hello! I'm Roman Gero B. Arroyo, a second-year Information Technology student at
+                  <strong>STI Alaminos</strong>. My portfolio showcases my growing skills and passion in areas like
+                  <span>web development and digital design</span>. Welcome!
+                </p>
+          
+                <!-- Tab Titles -->
+                <div class="tab-titles">
+                  <p class="tab-links active-link" onclick="openTab('Skills', this)">Skills</p>
+                  <p class="tab-links" onclick="openTab('Awards', this)">Awards & Achievements</p>
+                  <p class="tab-links" onclick="openTab('Education', this)">Education & Background</p>
+                </div>
+
+                <script>
+                    function openTab(tabName, element) {
+                      // Remove active class from all tabs
+                      const links = document.querySelectorAll(".tab-links");
+                      links.forEach(link => link.classList.remove("active-link"));
+                  
+                      // Hide all tab contents
+                      const contents = document.querySelectorAll(".tab-contents");
+                      contents.forEach(content => content.classList.remove("active-tab"));
+                  
+                      // Show selected tab content and activate tab link
+                      document.getElementById(tabName).classList.add("active-tab");
+                      element.classList.add("active-link");
+                    }
+                  </script>
+                  
+
+
+
+
+<!-- Skills Tab Content -->
+<div class="tab-contents active-tab" id="Skills">
+  <h2>Skills Background</h2>
+  <ul class="skills-list">
+    <li>
+      <strong>HTML/CSS</strong><br>
+      Proficient in creating responsive and visually appealing web pages. Familiar with Flexbox, Grid, and modern CSS frameworks like Tailwind CSS and Bootstrap.
+    </li>
+    <li>
+      <strong>JavaScript</strong><br>
+      Experience in building interactive websites and dynamic web components. Basic understanding of DOM manipulation and beginner-level use of libraries like jQuery.
+    </li>
+    <li>
+      <strong>Photoshop</strong><br>
+      Skilled in editing images, creating digital posters, and UI mockups for projects. Used for both academic and extracurricular activities.
+    </li>
+    <li>
+      <strong>Video Editing</strong><br>
+      Capable of editing content using tools like CapCut or Adobe Premiere Pro. Created school video presentations and short promotional clips.
+    </li>
+  </ul>
+</div>
+
+
+
+
+
+<!-- Experience Tab Content -->
+<div class="tab-contents" id="Awards">
+  <h2>Awards</h2>
+  <ul>
+
+
+    <li>
+      <strong>2022 – 2023:</strong><br>
+      <em>Ministry of altar server mabini  – Pob mabini Pangasinan</em><br>
+      Most plan tree award Most trust worthy<br>
+     
+    </li> 
+
+    <li>
+      <strong>2022 – 2023:</strong><br>
+      <em>Ministry of altar server mabini  – Pob mabini Pangasinan</em><br>
+       Ministry of altar server mabini 2020<br>
+     
+    </li>
+
+
+    <li>
+      <strong>2022 – 2023:</strong><br>
+      <em>Trustworthy  award –  Mabini  central school </em><br>
+      Mabini  central school 2010 Most Trustworthy  award<br>
+     
+    </li>
+    <li>
+      <strong>2008 – 2009:</strong><br>
+      <em>Municipal social welfare development –  Mabini  central school </em><br>
+      Municipal social welfare development Most friendly Top 3<br>
+     
+    </li>
+    <li>
+      <strong>2008 – 2009:</strong><br>
+      <em>Ecclesiastical  District of pangasinan West  – Sto Niño Learning Center </em><br>
+      Ecclesiastical  District of pangasinan West 2009<br>
+      
+    </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+<!-- Education Tab Content -->
+<div class="tab-contents" id="Education">
+  <h2>Educational Background</h2>
+  <ul class="education-list">
+    <li class="education-item">
+      <i class="fas fa-graduation-cap"></i>
+      <h3>Primary </h3>
+      <p><strong>    Mabini  Central School - </strong>  <em>Poblacion Mabini Pangasinan</em></p>
+      <p>   Grade 1 to 3</p>
+  
+      <p> <strong> Sto Niño Learning Center - </strong> <em>Poblacion Mabini Pangasinan</em> </p>
+      <p>Grade 4 to 6</p>
+
+    </li>
+
+    <li class="education-item">
+      <i class="fas fa-graduation-cap"></i>
+      <h3>Secondary </h3>
+      <p><strong>  Riverview High School  - </strong> <em>Poblacion Mabini Pangasinan</em> </p>
+      <p>  Grade 7 to 9</p>
+  
+      <p> <strong> Malanday National High School - </strong>  <em> Marikina City  </em></p>
+      <p>Grade 10 to 11</p>
+
+      <p> <strong> Riverview High School - </strong>  <em>Poblacion Mabini Pangasinan</em> </p>
+      <p>Grade 12 </p>
+
+    </li>
+    
+    
+    <li class="education-item">
+      <i class="fas fa-graduation-cap"></i>
+      <h3>  College </h3>
+      <p> <strong> Present </strong> </p>
+      <p><strong>  STI-Alaminos  - </strong> <em>Alaminos City Pangasinan</em> </p>
+      
+
+    </li>
+  </ul>
+</div>
+
+           </div>
+        </div>
+    </div>
+
+
+
+    <script>
+      function opentab(tabName, element) {
+        const tabLinks = document.querySelectorAll(".tab-Links");
+        const tabContents = document.querySelectorAll(".tab-contents");
+    
+        tabLinks.forEach(link => link.classList.remove("active-Link"));
+        tabContents.forEach(tab => tab.classList.remove("active-tab"));
+    
+        element.classList.add("active-Link");
+        document.getElementById(tabName).classList.add("active-tab");
+      }
+    </script>
+  
+<!-- Contact Section with Contact Form -->
+<div id="contact">
+    <div class="container">
+      <h1 class="sub-title" style="text-align: center;">Get In Touch</h1>
+  
+
+ 
+        <!-- Add more contact columns (e.g., phone, social media) here if needed -->
+      </div>
+  
+      <form action="#" method="post" class="contact-form">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+        </div>
+  
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+        </div>
+  
+        <div class="form-group">
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+        </div>
+  
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <p class="connect-text">
+        I’d love to connect! Feel free <span>to reach out through any of the channels below.</span>
+      </p>
+    </div>
+  </div>
+  
+
+
+         <!-- Phone Column -->
+<div class="contact-col">
+    <i class="fas fa-phone fa-2x" aria-hidden="true"></i>
+    <h2>Phone</h2>
+    <p>
+      <a href="tel:+639665346667" class="contact-link" aria-label="Call phone number +63 966 534 6667">
+        +63 966 534 6667
+      </a>
+    </p>
+    <div class="btn-group">
+      <a href="tel:+639665346667" class="btn" aria-label="Call me at +63 966 534 6667">📞 Call Me</a>
+      <a href="https://wa.me/639665346667" target="_blank" rel="noopener noreferrer" class="btn" aria-label="Send a message on WhatsApp to +63 966 534 6667">💬 Message on WhatsApp</a>
+    </div>
+  </div>
+
+
+      <!-- Contact Columns -->
+      <div class="contact-columns">
+        <!-- Email Column -->
+        <div class="contact-col">
+          <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+          <h2>Email</h2>
+          <p>
+            <a href="mailto:geroarroyo2233@gmail.com" class="contact-link" aria-label="Send email to geroarroyo2233@gmail.com">
+              geroarroyo2233@gmail.com
+            </a>
+          </p>
+          <a href="mailto:geroarroyo2233@gmail.com" class="btn" aria-label="Send email">Send Email</a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=geroarroyo2233@gmail.com" target="_blank" class="btn" aria-label="Open email in Gmail" style="margin-top: 10px;">
+            Open in Gmail
+          </a>
+        </div>
+
+  
+
+<!-- Add this in your <head> to load Font Awesome -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+  
+<!-- Social Media Section -->
+<section id="social-media">
+    <div class="container">
+      <h2>Follow Me</h2>
+      <p>Stay connected with me on social media:</p>
+  
+      <div class="social-icons">
+        <a href="https://www.facebook.com/profile.php?id=61553432610431&sk=about" target="_blank" class="social-icon facebook" aria-label="Facebook Profile">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com/romangeroarroyo?igsh=NTV1dWRyMHFyb3By" target="_blank" class="social-icon instagram" aria-label="Instagram Profile">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/roman-gero-b-arroyo-28b7b8307/" target="_blank" class="social-icon linkedin" aria-label="LinkedIn Profile">
+          <i class="fab fa-linkedin-in"></i>
+        </a>  
+        <a href="https://github.com/ROMANGEROBARROYO" target="_blank" class="social-icon github" aria-label="GitHub Profile">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.tiktok.com/@hanzo.cpm?_t=ZS-8vl6FTxqhPe&_r=1" target="_blank" class="social-icon tiktok" aria-label="TikTok Profile">
+          <i class="fab fa-tiktok"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+  
+
+
+<!-- Footer -->
+<div id="footer">
+    <div class="container">
+      <p>&copy; 2025 | Roman Gero Arroyo | All Rights Reserved</p>
+  
+      <!-- Back to Top Button -->
+      <button id="backToTop" class="back-to-top-btn" aria-label="Back to top">
+        <span class="back-to-top-text">Back to Top</span>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="back-to-top-icon">
+          <path d="M12 19V6M5 13l7-7 7 7"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+  
+<!-- Footer Styles -->
+<style>
+    /* Footer Styles */
+    #footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    
+    #footer .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    #footer p {
+      font-size: 14px;
+      margin: 0;
+      text-align: center;
+    }
+    
+    /* Back to Top Button Styles */
+    .back-to-top-btn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 99;
+      border: none;
+      outline: none;
+      background: linear-gradient(145deg, #2e2e2e, #1c1c1c);
+      color: #ddd;
+      cursor: pointer;
+      padding: 12px 20px;
+      border-radius: 50%;
+      font-size: 16px;
+      opacity: 0;
+      transition: opacity 0.5s ease, transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.4), -4px -4px 10px rgba(255, 255, 255, 0.05);
+      transform-style: preserve-3d;
+      perspective: 1000px;
+    }
+    
+    /* Show Button on Scroll */
+    .back-to-top-btn.show {
+      display: block;
+      opacity: 1;
+    }
+    
+    /* Hover Effect */
+    .back-to-top-btn:hover {
+      background: linear-gradient(145deg, #3a3a3a, #1a1a1a);
+      color: #fff;
+      transform: translateY(-6px) rotateX(8deg) rotateY(-8deg) scale(1.1);
+      box-shadow: 12px 12px 25px rgba(0, 0, 0, 0.5), -5px -5px 10px rgba(255, 255, 255, 0.08);
+      animation: glow 1.5s ease-in-out infinite; /* Add glow animation */
+    }
+    
+    /* Active State (Button Glows on Click) */
+    .back-to-top-btn:active {
+      transform: scale(0.95) translateY(2px) rotateX(4deg);
+      box-shadow: inset 3px 3px 8px rgba(0, 0, 0, 0.6);
+      animation: none; /* Stop glow animation when clicked */
+      background: linear-gradient(145deg, #ff5f5f, #ff1c1c); /* Glowing effect when clicked */
+    }
+    
+    /* Glowing Animation for Hover */
+    @keyframes glow {
+      0% {
+        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ff80ff, 0 0 20px #ff80ff;
+      }
+      50% {
+        box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff80ff, 0 0 40px #ff80ff;
+      }
+      100% {
+        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ff80ff, 0 0 20px #ff80ff;
+      }
+    }
+    
+    /* Button Text and Icon Styles */
+    .back-to-top-text {
+      display: inline-block;
+      margin-right: 10px;
+      transition: opacity 0.3s ease;
+    }
+    
+    .back-to-top-icon {
+      fill: #ddd;
+      transition: transform 0.3s ease;
+    }
+    
+    /* Hover Effect on Icon */
+    .back-to-top-btn:hover .back-to-top-icon {
+      transform: translateY(-3px);
+    }
+    
+    @media screen and (max-width: 600px) {
+      .back-to-top-btn {
+        font-size: 14px;
+        padding: 10px 15px;
+      }
+      .back-to-top-text {
+        display: none;
+      }
+    }
+    
+    @media screen and (max-width: 400px) {
+      .back-to-top-btn {
+        font-size: 12px;
+        padding: 8px 12px;
+      }
+      .back-to-top-text {
+        display: none;
+      }
+    }
+    </style>
+    
+  </body>
+</html>
